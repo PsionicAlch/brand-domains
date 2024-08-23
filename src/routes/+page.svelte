@@ -21,7 +21,7 @@
 		inspiration
 	</h2>
 
-	<form action="/generate/" method="post">
+	<form action="/generate" method="post">
 		<input type="hidden" name="keywords" id="keywords" value="gardening, nature, plants, life" />
 		<input type="hidden" name="extensions" id="extensions" value=".com, .net, .online" />
 		<input
