@@ -38,14 +38,14 @@
 
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content="/BrandDomains_og_image.png" />
+	<meta property="og:image" content="{website}/BrandDomains_og_image.png" />
 	<meta property="og:url" content={website} />
 	<meta property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content="/BrandDomains_og_image.png" />
+	<meta name="twitter:image" content="{website}/BrandDomains_og_image.png" />
 	<meta name="twitter:site" content="@psionicalch" />
 
 	<link rel="canonical" href={website} />
