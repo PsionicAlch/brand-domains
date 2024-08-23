@@ -1,0 +1,14 @@
+services:
+  sveltekit-app:
+    container_name: branddomains
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
