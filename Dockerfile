@@ -3,7 +3,6 @@ FROM oven/bun:latest AS build
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV ORIGIN="https://branddomains.psionicalch.com"
 
 COPY package.json ./
 COPY bun.lockb ./
