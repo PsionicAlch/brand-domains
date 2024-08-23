@@ -24,4 +24,4 @@ EXPOSE 3000
 
 RUN bun install
 
-CMD ["ORIGIN=https://branddomains.psionicalch.com", "bun", "run", "build/index.js"]
+CMD ["bun", "run", "build/index.js"]
