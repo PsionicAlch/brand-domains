@@ -6,6 +6,7 @@
 	import akhromieiev from '$lib/assets/images/akhromieiev.jpg';
 	import francisboi from '$lib/assets/images/franciscboicu.jpg';
 	import dmgoodman from '$lib/assets/images/dm_goodman.jpg';
+	import sonubardai from '$lib/assets/images/SonuBardai.jpg';
 </script>
 
 <section
@@ -84,6 +85,14 @@
 			tag="dm_goodman"
 			review="👨‍💻 For the guys who are building as fast as I wish 💊 Here's a pill for the headache of choosing and checking a domain 🤝 No thanks Brand Domains"
 			link="https://x.com/dm_goodman/status/1826688356924661855"
+		/>
+
+		<SocialReviewCard
+			src={sonubardai}
+			name="Sonu Bardai"
+			tag="SonuBardai"
+			review="Just tried out BrandDomains made by @psionicalch! It's an awesome domain name generator, perfect for finding available names for the SaaS projects I'm building. Highly recommend it if you're looking for a catchy, brandable domain! 🚀"
+			link="https://x.com/SonuBardai/status/1827696976693248218"
 		/>
 	</div>
 </section>
