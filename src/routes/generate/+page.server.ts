@@ -41,8 +41,8 @@ export const actions = {
 			}
 
 			const domainNames = await generateDomains(keywords, description, 25);
-			const responses: Promise<Response>[] = [];
 
+			const responses: Promise<Response>[] = [];
 			for (const domainName of domainNames) {
 				for (const extension of SplitString(extensions)) {
 					responses.push(
@@ -95,6 +95,7 @@ export const actions = {
 				})
 			};
 		} catch (error) {
+			console.log(error);
 			let code = 500;
 			if (error instanceof InvalidDomainGenerationInputError) {
 				code = 422;
